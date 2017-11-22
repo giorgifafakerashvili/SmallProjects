@@ -6,25 +6,17 @@
 #include "include/export.h"
 
 #include "include/slice.h"
+#include "include/status.h"
 
-
-void SliceTestInitialization() {
-    Slice slice;
-    assert(slice.size() == 0);
-}
-
-void SliceTest() {
-    const char* data = "giorgi";
-    Slice slice(data);
-
-    assert(memcmp(data, slice.data(), slice.size()) == 0);
-}
 
 int main() {
 
-    SliceTestInitialization();
-    SliceTest();
+    Status status;
 
+    Status result = status.Corruption("first msg", "second msg");
+
+
+    printf(result.ToString().data());
 
     return 0;
 }

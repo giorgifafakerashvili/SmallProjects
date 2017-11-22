@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SmallProjects.dir/main.cpp.obj"
   "CMakeFiles/SmallProjects.dir/src/status.cpp.obj"
   "CMakeFiles/SmallProjects.dir/src/slice.cpp.obj"
+  "CMakeFiles/SmallProjects.dir/src/filename.cpp.obj"
   "SmallProjects.pdb"
   "SmallProjects.exe"
   "SmallProjects.exe.manifest"

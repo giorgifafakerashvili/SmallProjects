@@ -3,9 +3,13 @@
 
 CMakeFiles/SmallProjects.dir/main.cpp.obj: ../include/export.h
 CMakeFiles/SmallProjects.dir/main.cpp.obj: ../include/slice.h
+CMakeFiles/SmallProjects.dir/main.cpp.obj: ../include/status.h
 CMakeFiles/SmallProjects.dir/main.cpp.obj: ../main.cpp
 
 CMakeFiles/SmallProjects.dir/src/slice.cpp.obj: ../src/slice.cpp
 
+CMakeFiles/SmallProjects.dir/src/status.cpp.obj: ../include/export.h
+CMakeFiles/SmallProjects.dir/src/status.cpp.obj: ../include/slice.h
+CMakeFiles/SmallProjects.dir/src/status.cpp.obj: ../include/status.h
 CMakeFiles/SmallProjects.dir/src/status.cpp.obj: ../src/status.cpp
 

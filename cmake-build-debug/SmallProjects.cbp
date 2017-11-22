@@ -85,6 +85,9 @@
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/include/export.h">
 			<Option target="SmallProjects"/>
 		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/include/filename.h">
+			<Option target="SmallProjects"/>
+		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/include/slice.h">
 			<Option target="SmallProjects"/>
 		</Unit>
@@ -92,6 +95,9 @@
 			<Option target="SmallProjects"/>
 		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/main.cpp">
+			<Option target="SmallProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/src/filename.cpp">
 			<Option target="SmallProjects"/>
 		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/src/slice.cpp">

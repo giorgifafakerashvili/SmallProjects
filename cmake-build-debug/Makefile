@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/filename.obj: src/filename.cpp.obj
+
+.PHONY : src/filename.obj
+
+# target to build an object file
+src/filename.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/src/filename.cpp.obj
+.PHONY : src/filename.cpp.obj
+
+src/filename.i: src/filename.cpp.i
+
+.PHONY : src/filename.i
+
+# target to preprocess a source file
+src/filename.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/src/filename.cpp.i
+.PHONY : src/filename.cpp.i
+
+src/filename.s: src/filename.cpp.s
+
+.PHONY : src/filename.s
+
+# target to generate assembly for a file
+src/filename.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/src/filename.cpp.s
+.PHONY : src/filename.cpp.s
+
 src/slice.obj: src/slice.cpp.obj
 
 .PHONY : src/slice.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/filename.obj
+	@echo ... src/filename.i
+	@echo ... src/filename.s
 	@echo ... src/slice.obj
 	@echo ... src/slice.i
 	@echo ... src/slice.s
