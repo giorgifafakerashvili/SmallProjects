@@ -3,5 +3,5 @@ project(SmallProjects)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp include/status.h src/status.cpp include/export.h include/slice.h src/slice.cpp)
 add_executable(SmallProjects ${SOURCE_FILES})
