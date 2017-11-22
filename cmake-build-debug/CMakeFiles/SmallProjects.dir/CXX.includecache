@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/support/CLionProjects/SmallProjects/include/export.h
+
+C:/Users/support/CLionProjects/SmallProjects/include/slice.h
+assert.h
+-
+stddef.h
+-
+string.h
+-
+string
+-
+export.h
+C:/Users/support/CLionProjects/SmallProjects/include/export.h
+
+C:/Users/support/CLionProjects/SmallProjects/main.cpp
+iostream
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+include/export.h
+C:/Users/support/CLionProjects/SmallProjects/include/export.h
+include/slice.h
+C:/Users/support/CLionProjects/SmallProjects/include/slice.h
+
+C:/Users/support/CLionProjects/SmallProjects/src/slice.cpp
+
+C:/Users/support/CLionProjects/SmallProjects/src/status.cpp
+
