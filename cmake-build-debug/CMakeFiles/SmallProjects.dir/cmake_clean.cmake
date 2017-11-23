@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SmallProjects.dir/main.cpp.obj"
-  "CMakeFiles/SmallProjects.dir/src/status.cpp.obj"
-  "CMakeFiles/SmallProjects.dir/src/slice.cpp.obj"
-  "CMakeFiles/SmallProjects.dir/src/filename.cpp.obj"
+  "CMakeFiles/SmallProjects.dir/main.cpp.o"
+  "CMakeFiles/SmallProjects.dir/src/status.cpp.o"
+  "CMakeFiles/SmallProjects.dir/src/slice.cpp.o"
+  "CMakeFiles/SmallProjects.dir/src/filename.cpp.o"
+  "CMakeFiles/SmallProjects.dir/src/arena.cpp.o"
+  "CMakeFiles/SmallProjects.dir/test/arena_test.cpp.o"
   "SmallProjects.pdb"
-  "SmallProjects.exe"
-  "SmallProjects.exe.manifest"
-  "libSmallProjects.dll.a"
+  "SmallProjects"
 )
 
 # Per-language clean rules from dependency scanning.

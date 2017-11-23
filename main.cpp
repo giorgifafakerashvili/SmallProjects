@@ -11,12 +11,7 @@
 
 int main() {
 
-    Status status;
 
-    Status result = status.Corruption("first msg", "second msg");
-
-
-    printf(result.ToString().data());
 
     return 0;
 }

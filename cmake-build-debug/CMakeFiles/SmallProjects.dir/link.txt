@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\SmallProjects.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\SmallProjects.dir/objects.a @CMakeFiles\SmallProjects.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\SmallProjects.dir/objects.a -Wl,--no-whole-archive  -o SmallProjects.exe -Wl,--out-implib,libSmallProjects.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SmallProjects.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/SmallProjects.dir/main.cpp.o CMakeFiles/SmallProjects.dir/src/status.cpp.o CMakeFiles/SmallProjects.dir/src/slice.cpp.o CMakeFiles/SmallProjects.dir/src/filename.cpp.o CMakeFiles/SmallProjects.dir/src/arena.cpp.o CMakeFiles/SmallProjects.dir/test/arena_test.cpp.o  -o SmallProjects 

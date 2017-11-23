@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/support/CLionProjects/SmallProjects/include/export.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/export.h
 
-C:/Users/support/CLionProjects/SmallProjects/include/slice.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/slice.h
 assert.h
 -
 stddef.h
@@ -18,17 +18,17 @@ string.h
 string
 -
 export.h
-C:/Users/support/CLionProjects/SmallProjects/include/export.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/export.h
 
-C:/Users/support/CLionProjects/SmallProjects/include/status.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/status.h
 string
 -
 export.h
-C:/Users/support/CLionProjects/SmallProjects/include/export.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/export.h
 slice.h
-C:/Users/support/CLionProjects/SmallProjects/include/slice.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/slice.h
 
-C:/Users/support/CLionProjects/SmallProjects/main.cpp
+/home/giorgi/Desktop/git_projects/SmallProjects/main.cpp
 iostream
 -
 string.h
@@ -38,17 +38,19 @@ stdio.h
 stdlib.h
 -
 include/export.h
-C:/Users/support/CLionProjects/SmallProjects/include/export.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/export.h
 include/slice.h
-C:/Users/support/CLionProjects/SmallProjects/include/slice.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/slice.h
 include/status.h
-C:/Users/support/CLionProjects/SmallProjects/include/status.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/status.h
 
-C:/Users/support/CLionProjects/SmallProjects/src/slice.cpp
+/home/giorgi/Desktop/git_projects/SmallProjects/src/filename.cpp
 
-C:/Users/support/CLionProjects/SmallProjects/src/status.cpp
+/home/giorgi/Desktop/git_projects/SmallProjects/src/slice.cpp
+
+/home/giorgi/Desktop/git_projects/SmallProjects/src/status.cpp
 stdio.h
 -
 ../include/status.h
-C:/Users/support/CLionProjects/SmallProjects/include/status.h
+/home/giorgi/Desktop/git_projects/SmallProjects/include/status.h
 
