@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/support/CLionProjects/SmallProjects/include/arena.h
+vector
+-
+assert.h
+-
+stddef.h
+-
+stdint.h
+-
+atomic
+-
+
 C:/Users/support/CLionProjects/SmallProjects/include/export.h
+
+C:/Users/support/CLionProjects/SmallProjects/include/random.h
+stdint.h
+-
 
 C:/Users/support/CLionProjects/SmallProjects/include/slice.h
 assert.h
@@ -44,6 +60,14 @@ C:/Users/support/CLionProjects/SmallProjects/include/slice.h
 include/status.h
 C:/Users/support/CLionProjects/SmallProjects/include/status.h
 
+C:/Users/support/CLionProjects/SmallProjects/src/arena.cpp
+assert.h
+-
+../include/arena.h
+C:/Users/support/CLionProjects/SmallProjects/include/arena.h
+
+C:/Users/support/CLionProjects/SmallProjects/src/filename.cpp
+
 C:/Users/support/CLionProjects/SmallProjects/src/slice.cpp
 
 C:/Users/support/CLionProjects/SmallProjects/src/status.cpp
@@ -51,4 +75,12 @@ stdio.h
 -
 ../include/status.h
 C:/Users/support/CLionProjects/SmallProjects/include/status.h
+
+C:/Users/support/CLionProjects/SmallProjects/test/arena_test.cpp
+../include/arena.h
+C:/Users/support/CLionProjects/SmallProjects/include/arena.h
+../include/random.h
+C:/Users/support/CLionProjects/SmallProjects/include/random.h
+gtest/gtest.h
+-
 

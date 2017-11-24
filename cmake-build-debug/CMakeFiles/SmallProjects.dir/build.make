@@ -80,9 +80,33 @@ CMakeFiles/SmallProjects.dir/main.cpp.obj.provides: CMakeFiles/SmallProjects.dir
 CMakeFiles/SmallProjects.dir/main.cpp.obj.provides.build: CMakeFiles/SmallProjects.dir/main.cpp.obj
 
 
+CMakeFiles/SmallProjects.dir/src/arena.cpp.obj: CMakeFiles/SmallProjects.dir/flags.make
+CMakeFiles/SmallProjects.dir/src/arena.cpp.obj: ../src/arena.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SmallProjects.dir/src/arena.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SmallProjects.dir\src\arena.cpp.obj -c C:\Users\support\CLionProjects\SmallProjects\src\arena.cpp
+
+CMakeFiles/SmallProjects.dir/src/arena.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmallProjects.dir/src/arena.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\support\CLionProjects\SmallProjects\src\arena.cpp > CMakeFiles\SmallProjects.dir\src\arena.cpp.i
+
+CMakeFiles/SmallProjects.dir/src/arena.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmallProjects.dir/src/arena.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\support\CLionProjects\SmallProjects\src\arena.cpp -o CMakeFiles\SmallProjects.dir\src\arena.cpp.s
+
+CMakeFiles/SmallProjects.dir/src/arena.cpp.obj.requires:
+
+.PHONY : CMakeFiles/SmallProjects.dir/src/arena.cpp.obj.requires
+
+CMakeFiles/SmallProjects.dir/src/arena.cpp.obj.provides: CMakeFiles/SmallProjects.dir/src/arena.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/src/arena.cpp.obj.provides.build
+.PHONY : CMakeFiles/SmallProjects.dir/src/arena.cpp.obj.provides
+
+CMakeFiles/SmallProjects.dir/src/arena.cpp.obj.provides.build: CMakeFiles/SmallProjects.dir/src/arena.cpp.obj
+
+
 CMakeFiles/SmallProjects.dir/src/status.cpp.obj: CMakeFiles/SmallProjects.dir/flags.make
 CMakeFiles/SmallProjects.dir/src/status.cpp.obj: ../src/status.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SmallProjects.dir/src/status.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SmallProjects.dir/src/status.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SmallProjects.dir\src\status.cpp.obj -c C:\Users\support\CLionProjects\SmallProjects\src\status.cpp
 
 CMakeFiles/SmallProjects.dir/src/status.cpp.i: cmake_force
@@ -106,7 +130,7 @@ CMakeFiles/SmallProjects.dir/src/status.cpp.obj.provides.build: CMakeFiles/Small
 
 CMakeFiles/SmallProjects.dir/src/slice.cpp.obj: CMakeFiles/SmallProjects.dir/flags.make
 CMakeFiles/SmallProjects.dir/src/slice.cpp.obj: ../src/slice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SmallProjects.dir/src/slice.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SmallProjects.dir/src/slice.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SmallProjects.dir\src\slice.cpp.obj -c C:\Users\support\CLionProjects\SmallProjects\src\slice.cpp
 
 CMakeFiles/SmallProjects.dir/src/slice.cpp.i: cmake_force
@@ -130,7 +154,7 @@ CMakeFiles/SmallProjects.dir/src/slice.cpp.obj.provides.build: CMakeFiles/SmallP
 
 CMakeFiles/SmallProjects.dir/src/filename.cpp.obj: CMakeFiles/SmallProjects.dir/flags.make
 CMakeFiles/SmallProjects.dir/src/filename.cpp.obj: ../src/filename.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SmallProjects.dir/src/filename.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SmallProjects.dir/src/filename.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SmallProjects.dir\src\filename.cpp.obj -c C:\Users\support\CLionProjects\SmallProjects\src\filename.cpp
 
 CMakeFiles/SmallProjects.dir/src/filename.cpp.i: cmake_force
@@ -152,25 +176,53 @@ CMakeFiles/SmallProjects.dir/src/filename.cpp.obj.provides: CMakeFiles/SmallProj
 CMakeFiles/SmallProjects.dir/src/filename.cpp.obj.provides.build: CMakeFiles/SmallProjects.dir/src/filename.cpp.obj
 
 
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj: CMakeFiles/SmallProjects.dir/flags.make
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj: ../test/arena_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SmallProjects.dir\test\arena_test.cpp.obj -c C:\Users\support\CLionProjects\SmallProjects\test\arena_test.cpp
+
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmallProjects.dir/test/arena_test.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\support\CLionProjects\SmallProjects\test\arena_test.cpp > CMakeFiles\SmallProjects.dir\test\arena_test.cpp.i
+
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmallProjects.dir/test/arena_test.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\support\CLionProjects\SmallProjects\test\arena_test.cpp -o CMakeFiles\SmallProjects.dir\test\arena_test.cpp.s
+
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj.requires:
+
+.PHONY : CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj.requires
+
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj.provides: CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj.provides.build
+.PHONY : CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj.provides
+
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj.provides.build: CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj
+
+
 # Object files for target SmallProjects
 SmallProjects_OBJECTS = \
 "CMakeFiles/SmallProjects.dir/main.cpp.obj" \
+"CMakeFiles/SmallProjects.dir/src/arena.cpp.obj" \
 "CMakeFiles/SmallProjects.dir/src/status.cpp.obj" \
 "CMakeFiles/SmallProjects.dir/src/slice.cpp.obj" \
-"CMakeFiles/SmallProjects.dir/src/filename.cpp.obj"
+"CMakeFiles/SmallProjects.dir/src/filename.cpp.obj" \
+"CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj"
 
 # External object files for target SmallProjects
 SmallProjects_EXTERNAL_OBJECTS =
 
 SmallProjects.exe: CMakeFiles/SmallProjects.dir/main.cpp.obj
+SmallProjects.exe: CMakeFiles/SmallProjects.dir/src/arena.cpp.obj
 SmallProjects.exe: CMakeFiles/SmallProjects.dir/src/status.cpp.obj
 SmallProjects.exe: CMakeFiles/SmallProjects.dir/src/slice.cpp.obj
 SmallProjects.exe: CMakeFiles/SmallProjects.dir/src/filename.cpp.obj
+SmallProjects.exe: CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj
 SmallProjects.exe: CMakeFiles/SmallProjects.dir/build.make
 SmallProjects.exe: CMakeFiles/SmallProjects.dir/linklibs.rsp
 SmallProjects.exe: CMakeFiles/SmallProjects.dir/objects1.rsp
 SmallProjects.exe: CMakeFiles/SmallProjects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable SmallProjects.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\support\CLionProjects\SmallProjects\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SmallProjects.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SmallProjects.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,9 +231,11 @@ CMakeFiles/SmallProjects.dir/build: SmallProjects.exe
 .PHONY : CMakeFiles/SmallProjects.dir/build
 
 CMakeFiles/SmallProjects.dir/requires: CMakeFiles/SmallProjects.dir/main.cpp.obj.requires
+CMakeFiles/SmallProjects.dir/requires: CMakeFiles/SmallProjects.dir/src/arena.cpp.obj.requires
 CMakeFiles/SmallProjects.dir/requires: CMakeFiles/SmallProjects.dir/src/status.cpp.obj.requires
 CMakeFiles/SmallProjects.dir/requires: CMakeFiles/SmallProjects.dir/src/slice.cpp.obj.requires
 CMakeFiles/SmallProjects.dir/requires: CMakeFiles/SmallProjects.dir/src/filename.cpp.obj.requires
+CMakeFiles/SmallProjects.dir/requires: CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj.requires
 
 .PHONY : CMakeFiles/SmallProjects.dir/requires
 

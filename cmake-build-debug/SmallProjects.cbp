@@ -82,10 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/include/arena.h">
+			<Option target="SmallProjects"/>
+		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/include/export.h">
 			<Option target="SmallProjects"/>
 		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/include/filename.h">
+			<Option target="SmallProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/include/random.h">
 			<Option target="SmallProjects"/>
 		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/include/slice.h">
@@ -97,6 +103,9 @@
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/main.cpp">
 			<Option target="SmallProjects"/>
 		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/src/arena.cpp">
+			<Option target="SmallProjects"/>
+		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/src/filename.cpp">
 			<Option target="SmallProjects"/>
 		</Unit>
@@ -104,6 +113,9 @@
 			<Option target="SmallProjects"/>
 		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/src/status.cpp">
+			<Option target="SmallProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/test/arena_test.cpp">
 			<Option target="SmallProjects"/>
 		</Unit>
 		<Unit filename="C:/Users/support/CLionProjects/SmallProjects/CMakeLists.txt">

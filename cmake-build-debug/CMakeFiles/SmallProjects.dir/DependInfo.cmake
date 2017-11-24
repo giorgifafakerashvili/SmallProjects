@@ -5,9 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/support/CLionProjects/SmallProjects/main.cpp" "C:/Users/support/CLionProjects/SmallProjects/cmake-build-debug/CMakeFiles/SmallProjects.dir/main.cpp.obj"
+  "C:/Users/support/CLionProjects/SmallProjects/src/arena.cpp" "C:/Users/support/CLionProjects/SmallProjects/cmake-build-debug/CMakeFiles/SmallProjects.dir/src/arena.cpp.obj"
   "C:/Users/support/CLionProjects/SmallProjects/src/filename.cpp" "C:/Users/support/CLionProjects/SmallProjects/cmake-build-debug/CMakeFiles/SmallProjects.dir/src/filename.cpp.obj"
   "C:/Users/support/CLionProjects/SmallProjects/src/slice.cpp" "C:/Users/support/CLionProjects/SmallProjects/cmake-build-debug/CMakeFiles/SmallProjects.dir/src/slice.cpp.obj"
   "C:/Users/support/CLionProjects/SmallProjects/src/status.cpp" "C:/Users/support/CLionProjects/SmallProjects/cmake-build-debug/CMakeFiles/SmallProjects.dir/src/status.cpp.obj"
+  "C:/Users/support/CLionProjects/SmallProjects/test/arena_test.cpp" "C:/Users/support/CLionProjects/SmallProjects/cmake-build-debug/CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

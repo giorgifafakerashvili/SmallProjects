@@ -6,10 +6,19 @@ CMakeFiles/SmallProjects.dir/main.cpp.obj: ../include/slice.h
 CMakeFiles/SmallProjects.dir/main.cpp.obj: ../include/status.h
 CMakeFiles/SmallProjects.dir/main.cpp.obj: ../main.cpp
 
+CMakeFiles/SmallProjects.dir/src/arena.cpp.obj: ../include/arena.h
+CMakeFiles/SmallProjects.dir/src/arena.cpp.obj: ../src/arena.cpp
+
+CMakeFiles/SmallProjects.dir/src/filename.cpp.obj: ../src/filename.cpp
+
 CMakeFiles/SmallProjects.dir/src/slice.cpp.obj: ../src/slice.cpp
 
 CMakeFiles/SmallProjects.dir/src/status.cpp.obj: ../include/export.h
 CMakeFiles/SmallProjects.dir/src/status.cpp.obj: ../include/slice.h
 CMakeFiles/SmallProjects.dir/src/status.cpp.obj: ../include/status.h
 CMakeFiles/SmallProjects.dir/src/status.cpp.obj: ../src/status.cpp
+
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj: ../include/arena.h
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj: ../include/random.h
+CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj: ../test/arena_test.cpp
 

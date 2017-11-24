@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/arena.obj: src/arena.cpp.obj
+
+.PHONY : src/arena.obj
+
+# target to build an object file
+src/arena.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/src/arena.cpp.obj
+.PHONY : src/arena.cpp.obj
+
+src/arena.i: src/arena.cpp.i
+
+.PHONY : src/arena.i
+
+# target to preprocess a source file
+src/arena.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/src/arena.cpp.i
+.PHONY : src/arena.cpp.i
+
+src/arena.s: src/arena.cpp.s
+
+.PHONY : src/arena.s
+
+# target to generate assembly for a file
+src/arena.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/src/arena.cpp.s
+.PHONY : src/arena.cpp.s
+
 src/filename.obj: src/filename.cpp.obj
 
 .PHONY : src/filename.obj
@@ -230,6 +257,33 @@ src/status.cpp.s:
 	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/src/status.cpp.s
 .PHONY : src/status.cpp.s
 
+test/arena_test.obj: test/arena_test.cpp.obj
+
+.PHONY : test/arena_test.obj
+
+# target to build an object file
+test/arena_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/test/arena_test.cpp.obj
+.PHONY : test/arena_test.cpp.obj
+
+test/arena_test.i: test/arena_test.cpp.i
+
+.PHONY : test/arena_test.i
+
+# target to preprocess a source file
+test/arena_test.cpp.i:
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/test/arena_test.cpp.i
+.PHONY : test/arena_test.cpp.i
+
+test/arena_test.s: test/arena_test.cpp.s
+
+.PHONY : test/arena_test.s
+
+# target to generate assembly for a file
+test/arena_test.cpp.s:
+	$(MAKE) -f CMakeFiles\SmallProjects.dir\build.make CMakeFiles/SmallProjects.dir/test/arena_test.cpp.s
+.PHONY : test/arena_test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -242,6 +296,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/arena.obj
+	@echo ... src/arena.i
+	@echo ... src/arena.s
 	@echo ... src/filename.obj
 	@echo ... src/filename.i
 	@echo ... src/filename.s
@@ -251,6 +308,9 @@ help:
 	@echo ... src/status.obj
 	@echo ... src/status.i
 	@echo ... src/status.s
+	@echo ... test/arena_test.obj
+	@echo ... test/arena_test.i
+	@echo ... test/arena_test.s
 .PHONY : help
 
 
