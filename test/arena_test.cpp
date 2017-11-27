@@ -1,3 +1,5 @@
+#ifdef _TESTING_SUPPORT_
+
 #include "../include/arena.h"
 #include "../include/random.h"
 #include <gtest/gtest.h>
@@ -57,3 +59,4 @@ TEST(ArenaTest, Simple) {
         }
     }
 }
+#endif
